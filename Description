@@ -1,0 +1,68 @@
+**Three Card Poker Game**
+
+The Three Card Poker Game is a Java-based application that simulates the popular casino game. The project focuses on implementing the game logic, user interface, and player interactions in an intuitive and engaging manner.
+
+---
+
+### **Project Overview**
+
+The application provides a complete gameplay experience for Three Card Poker. It includes features such as card dealing, hand evaluation, betting options, and results display. The game logic adheres to the standard rules of Three Card Poker.
+
+---
+
+### **How the Game Works**
+
+#### **1. Game Setup**
+- A deck of 52 cards is shuffled at the start of each round.
+- Each player is dealt three cards, and the dealer also receives three cards.
+
+#### **2. Player Actions**
+- Players can choose to:
+  - **Place Bets**: Ante and Pair Plus bets are supported.
+  - **Fold or Play**: Players can fold and forfeit their ante bet or play by placing an additional wager equal to their ante.
+
+#### **3. Dealer Qualification**
+- The dealer qualifies with a Queen-high or better hand.  
+- If the dealer does not qualify, the ante bet is paid, and the play bet is returned to the player.
+
+#### **4. Hand Evaluation**
+- Hands are ranked based on standard poker rankings:
+  - Straight Flush
+  - Three of a Kind
+  - Straight
+  - Flush
+  - Pair
+  - High Card
+- Player and dealer hands are compared to determine the outcome of bets.
+
+#### **5. Payouts**
+- Payouts are determined based on the type of bet and hand rankings.
+- Players can win Ante Bonus and Pair Plus Bonus in addition to their regular bets.
+
+---
+
+### **User Interface**
+- **Graphical Design**:  
+  The game features a JavaFX-based graphical user interface designed with FXML and styled using CSS.
+- **Game Play Screen**:  
+  - Displays player and dealer cards, betting areas, and game options.
+  - Provides real-time feedback on the status of the game and results.
+- **Interactive Features**:  
+  Players can click buttons to place bets, fold, or play, with instant visual updates.
+
+---
+
+### **Key Features**
+1. **Realistic Gameplay**: Adheres to the standard rules of Three Card Poker, providing an authentic experience.
+2. **Dynamic Interface**: A visually appealing and interactive GUI that enhances user engagement.
+3. **Customizable Options**: Includes settings to adjust game preferences and restart gameplay.
+
+---
+
+### **Technologies Used**
+- **Programming Language**: Java
+- **GUI Framework**: JavaFX with FXML and CSS
+
+---
+
+This project highlights skills in object-oriented programming, graphical user interface design, and implementing complex game logic in a structured and user-friendly manner.
